@@ -27,9 +27,18 @@ li a {
     color: white;
 }
 
+li a:hover {
+    color: silver;
+}
+
 #menu {
     margin: 0;
 }
+
+nav ul {
+    list-style-type: none;
+}
+
 
 nav li {
     margin: 10px;
@@ -37,6 +46,7 @@ nav li {
     float: right;
     font-size: 150%;
 }
+
 
 h1 {
     text-align: center;
