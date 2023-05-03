@@ -1,4 +1,53 @@
-#background-image {
-    background: url(images/khpattern.jpg) no-repeat;
-    background-size: 100% 1470%;
+@font-face {
+    font-family: khfont;
+    src: url(fonts/Kingdom_Hearts_Font.ttf);
+}
+
+body,
+html {
+    height: 100%;
+    color: white;
+
+}
+
+
+.bg {
+    background: url(images/khpattern.jpg) repeat-y center;
+    background-blend-mode: multiply;
+    background-color: rgba(88, 88, 87, 0.904);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu {
+    margin: 0;
+}
+
+nav li {
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    font-size: 150%;
+}
+
+h1 {
+    text-align: center;
+    clear: both;
+    font-family: khfont;
+    font-size: 700%;
+
+    color: #000000;
+    background-image: -webkit-linear-gradient(270deg, #000000 24%, #ffffff 79%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
