@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: khtext;
-    src: url(../fonts/ComicHearts.otf);
+    font-family: ComicHearts;
+    src: url(../fonts/ComicHearts.ttf);
 }
 
 body,
@@ -17,8 +17,9 @@ html {
 
 #banner {
     background: url(../images/khbanner.jpg) no-repeat center;
-    height: 100%;
-    display: inline-block;
+    height: 47%;
+    background-size: cover;
+    background-position: initial;
 }
 
 .bg {
@@ -26,8 +27,6 @@ html {
     background-blend-mode: multiply;
     background-color: rgba(88, 88, 87, 0.904);
     background-size: cover;
-    height: 100%;
-
 }
 
 
