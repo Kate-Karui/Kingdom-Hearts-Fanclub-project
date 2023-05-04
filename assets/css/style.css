@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: ComicHearts;
-    src: url(../fonts/ComicHearts.ttf);
+    font-family: khtext;
+    src: url(../fonts/KH_Text.ttf);
 }
 
 body,
@@ -17,13 +17,13 @@ html {
 
 #banner {
     background: url(../images/khbanner.jpg) no-repeat center;
-    height: 47%;
+    height: 50%;
     background-size: cover;
     background-position: initial;
 }
 
 .bg {
-    background: url(../images/khpattern.jpg) repeat-y center;
+    background: url(../images/khpattern.jpg) center;
     background-blend-mode: multiply;
     background-color: rgba(88, 88, 87, 0.904);
     background-size: cover;
@@ -37,12 +37,13 @@ h2 {
 
 #introduction {
     text-align: center;
-    font-family: khtext;
+    font-family: khtext, sans-serif;
 }
 
 li a {
     text-decoration: none;
     color: white;
+    position: fixed;
 }
 
 li a:hover {
@@ -60,8 +61,7 @@ nav ul {
 
 
 nav li {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 80px 1px 0;
     float: right;
     font-size: 150%;
 }
@@ -87,6 +87,7 @@ nav li {
     color: gold;
     position: relative;
     right: -1%;
+    bottom: -20px;
 }
 
 #crownl {
@@ -95,6 +96,7 @@ nav li {
     color: gold;
     position: relative;
     left: -1%;
+    bottom: -20px;
 
 }
 
