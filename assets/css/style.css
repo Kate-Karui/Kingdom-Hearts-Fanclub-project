@@ -50,7 +50,7 @@ h2 p {
 li a {
     text-decoration: none;
     color: white;
-    position: fixed;
+    position: relative;
 }
 
 li a:hover {
@@ -67,38 +67,50 @@ li a:hover {
     opacity: 0%;
     transform: scale(5.0);
     position: relative;
-    right: -41px;
+    right: -35px;
+    bottom: 10px;
     text-align: center;
     margin: 0 0;
     white-space: nowrap;
     cursor: pointer;
 }
 
-.crown {
+.key {
     font-family: khfont, sans-serif;
     font-size: 500%;
     color: gold;
     position: relative;
-    bottom: -50px;
+    bottom: -35px;
     text-align: center;
     pointer-events: none;
 }
 
-.toggle:checked+.crown+.answer {
+.toggle:checked+.key+.answer {
     display: block;
 }
 
-.toggle:hover+.crown {
+.toggle:hover+.key {
     color: silver;
-    font-size: 505%;
+    font-size: 510%;
+}
+
+#welcome {
+    margin-bottom: 15px;
 }
 
 .answer {
     display: none;
     position: relative;
-    top: -15px;
+    top: 5px;
     font-family: khtext;
     text-align: center;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
 }
 
 nav ul {
@@ -107,10 +119,11 @@ nav ul {
 
 
 nav li {
-    margin: 0 80px 1px 0;
+    margin: 0 50px 1px 0px;
     float: right;
     font-size: 150%;
 }
+
 
 
 #title {
