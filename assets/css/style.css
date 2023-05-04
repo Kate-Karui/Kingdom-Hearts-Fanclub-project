@@ -67,11 +67,11 @@ li a:hover {
     opacity: 0%;
     transform: scale(5.0);
     position: relative;
-    right: 43px;
+    right: -41px;
     text-align: center;
     margin: 0 0;
     white-space: nowrap;
-    order: -1;
+    cursor: pointer;
 }
 
 .crown {
@@ -81,14 +81,14 @@ li a:hover {
     position: relative;
     bottom: -50px;
     text-align: center;
+    pointer-events: none;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
+.toggle:checked+.crown+.answer {
+    display: block;
 }
 
-.crown:hover {
+.toggle:hover+.crown {
     color: silver;
     font-size: 505%;
 }
@@ -99,10 +99,6 @@ li a:hover {
     top: -15px;
     font-family: khtext;
     text-align: center;
-}
-
-.toggle:checked+.answer {
-    display: block;
 }
 
 nav ul {
