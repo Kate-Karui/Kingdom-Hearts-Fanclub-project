@@ -48,14 +48,12 @@ nav li {
 }
 
 
-h1 {
+#title {
     text-align: center;
     clear: both;
     font-family: khfont, sans-serif;
     font-size: 700%;
-    display: inline-block;
-
-
+    white-space: nowrap;
     color: #000000;
     background-image: -webkit-linear-gradient(270deg, #000000 24%, #ffffff 79%);
     background-clip: text;
@@ -64,23 +62,15 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-#crownr {
-    text-align: center;
-    clear: both;
+#crownr,
+#crownl {
     font-family: khfont, sans-serif;
     font-size: 700%;
-    margin: 0 auto;
-    padding-left: 1%;
     color: gold;
 }
 
-#crownl {
-    text-align: center;
+
+table {
     clear: both;
-    font-family: khfont, sans-serif;
-    font-size: 700%;
     margin: 0 auto;
-    padding-left: 33%;
-    padding-right: 1%;
-    color: gold;
 }
