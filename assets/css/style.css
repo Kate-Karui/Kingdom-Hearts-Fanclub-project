@@ -1,6 +1,11 @@
 @font-face {
     font-family: khfont;
-    src: url(fonts/Kingdom_Hearts_Font.ttf);
+    src: url(../fonts/Kingdom_Hearts_Font.ttf);
+}
+
+@font-face {
+    font-family: khtext;
+    src: url(../fonts/ComicHearts.otf);
 }
 
 body,
@@ -10,17 +15,31 @@ html {
 
 }
 
+#banner {
+    background: url(../images/khbanner.jpg) no-repeat center;
+    height: 100%;
+    display: inline-block;
+}
 
 .bg {
-    background: url(images/khpattern.jpg) repeat-y center;
+    background: url(../images/khpattern.jpg) repeat-y center;
     background-blend-mode: multiply;
     background-color: rgba(88, 88, 87, 0.904);
     background-size: cover;
     height: 100%;
-    overflow: hidden;
 
 }
 
+
+h2 {
+    text-align: center;
+    font-family: khtext, sans-serif;
+}
+
+#introduction {
+    text-align: center;
+    font-family: khtext;
+}
 
 li a {
     text-decoration: none;
@@ -29,6 +48,7 @@ li a {
 
 li a:hover {
     color: silver;
+    font-size: 105%;
 }
 
 #menu {
@@ -62,11 +82,21 @@ nav li {
     -webkit-text-fill-color: transparent;
 }
 
-#crownr,
+#crownr {
+    font-family: khfont, sans-serif;
+    font-size: 700%;
+    color: gold;
+    position: relative;
+    right: -1%;
+}
+
 #crownl {
     font-family: khfont, sans-serif;
     font-size: 700%;
     color: gold;
+    position: relative;
+    left: -1%;
+
 }
 
 
