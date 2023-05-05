@@ -1,3 +1,14 @@
+<h1>Kingdom Hearts Fanclub</h1>
+The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game series by Square Enix and Disney. It is a place where you can:
+<ul>
+<li>Share and enjoy fan-made content such as art, games, videos, music and more</li>
+<li>Discuss and learn about the lore, characters, worlds and themes of Kingdom Hearts</li>
+<li>Connect and socialize with other fans online or in person through chat rooms, forums and meetups.</li>
+</ul>
+
+
+
+
 
 
 

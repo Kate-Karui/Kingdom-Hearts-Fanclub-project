@@ -140,7 +140,7 @@ nav li {
     font-size: 700%;
     white-space: nowrap;
     color: #000000;
-    background-image: -webkit-linear-gradient(270deg, #000000 24%, #ffffff 79%);
+    background-image: -webkit-linear-gradient(270deg, #3f3f3f 24%, #ffffff 79%);
     background-clip: text;
     -webkit-background-clip: text;
     text-emphasis-color: transparent;
