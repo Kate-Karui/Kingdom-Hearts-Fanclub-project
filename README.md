@@ -38,15 +38,15 @@ The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game seri
 <ul>
 <li>A sign up forum that sends data to Code Institute's formdump.</li>
 <li>The form collect Username, Password and Email Address.</li>
-<li>It enables people to signup to Kingdom Hearts Fanclub to give access to its content</li>
+<li>It enables people to signup to Kingdom Hearts Fanclub to give access to its content.</li>
 </ul>
 
 ![image](./assets/images/Screenshot%202023-05-05%20223556.png)
 
-<h2><b>Contact & Copyright Information</b></h2>
+<h2><b>Contact & Copyright Information.</b></h2>
 <ul>
-<li>Contact information on where to find me</li>
-<li>Copyright information brought from the Kingdom Hearts website stating that I don't own the characters or the franchise</li>
+<li>Contact information on where to find me.</li>
+<li>Copyright information brought from the Kingdom Hearts website stating that I don't own the characters or the franchise.</li>
 
 ![image](./assets/images/Screenshot%202023-05-05%20223603.png)
 </ul>
@@ -54,14 +54,14 @@ The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game seri
 <h1><b>Testing</b></h1>
 <ul>
 <li>I tested that it works in Chrome, Firefox and Opera.</li>
-<li>I confirmed that the site is responsive and looks good on Phone</li>
-<li>I confirmed that the navigation bar works and is easy to understand</li>
-<li>I have confirmed that the form works and is required, also that it sends the correct information</li>
+<li>I confirmed that the site is responsive and looks good on Phone.</li>
+<li>I confirmed that the navigation bar works and is easy to understand.</li>
+<li>I have confirmed that the form works and is required, also that it sends the correct information.</li>
 </ul>
 
 <h2><b>Bugs</b></h2>
 <ul>
-<li>There's a point where the responsive design looks weird when transitioning to the max-width</li>
+<li>There's a point where the responsive design looks weird when transitioning to the max-width.</li>
 </ul>
 <br>
 <h2><b>Validator Testing</b></h2>
@@ -76,7 +76,7 @@ The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game seri
 
 <li><b>Accessibility</b></li>
 <ul>
-<li>I have confirmed that the scores are high with Lighthouse</li>
+<li>I have confirmed that the scores are high with Lighthouse.</li>
 </ul>
 
 ![image](./assets/images/Screenshot%202023-05-05%20215832.png)
@@ -85,15 +85,15 @@ The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game seri
 
 <li><b>Unfixed Bugs</b></li>
 <ul>
-<li>There's a point where the responsive design looks weird when transitioning to the max-width</li>
+<li>There's a point where the responsive design looks weird when transitioning to the max-width.</li>
 </ul>
 
 <h1>Deployment</h1>
-<li><b>The site is uploaded to GitHub Pages and works as expected</b></li>
+<li><b>The site is uploaded to GitHub Pages and works as expected.</b></li>
 <ul>
 <li>In GitHub repository</li>
 <li>Added it through the settings</li>
-<li>You can find the live link <a href="https://kate-karui.github.io/Kingdom-Hearts-Fanclub-project/">here</a></li>
+<li>You can find the live link <a href="https://kate-karui.github.io/Kingdom-Hearts-Fanclub-project/">here.</a></li>
 </ul>
 
 <h1>Credits</h1>
