@@ -93,25 +93,26 @@ The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game seri
 <ul>
 <li>In GitHub repository</li>
 <li>Added it through the settings</li>
+<li>You can find the live link <a href="https://kate-karui.github.io/Kingdom-Hearts-Fanclub-project/">here</a></li>
 </ul>
 
 <h1>Credits</h1>
 <h2>Contents</h2>
 
 <li>Used inspiration from the Love Running project.</li>
-<li><a href="https://stackoverflow.com/questions/11737168/how-to-import-fonts-in-css">Help with font import</a>.</li>
-<li><a href="https://colorffy.com/text-gradient-generator">Background h1 text color help</a>.</li>
+<li><a href="https://stackoverflow.com/questions/11737168/how-to-import-fonts-in-css">Help with font import.</a></li>
+<li><a href="https://colorffy.com/text-gradient-generator">Background h1 text color help.</a></li>
 <li>Crown bold text hide (Bing AI Help).
 <li>Used inspiration from Signup From Challange 2 for the form area.</li>
 <li>Copied submit button CSS code from Code Institute Signup Form Challange 2.</li>
-<li><a href="https://www.kingdomhearts.com/about/us/">Copyright taken from</a>.</li>
+<li><a href="https://www.kingdomhearts.com/about/us/">Copyright taken from.</a></li>
 
 <br>
 <h2>Media</h2>
-<li><a href="https://www.deviantart.com/thekingblader995/art/Kingdom-Hearts-Saga-Timeline-Banner-779372432">KH banner</a>.</li>
-<li><a href="https://wallpapercave.com/w/anc4XhE">KH pattern</a>.</li>
-<li><a href="https://www.dafont.com/kingdom-hearts.font">Kingdom Hearts h1 font</a></li>
-<li><a href="https://www.mediafire.com/file/te9xmuztowt4mnz/KH_Fonts.zip/file">Kingdom Hearts h2 font</a></li>
+<li><a href="https://www.deviantart.com/thekingblader995/art/Kingdom-Hearts-Saga-Timeline-Banner-779372432">KH banner.</a></li>
+<li><a href="https://wallpapercave.com/w/anc4XhE">KH pattern.</a></li>
+<li><a href="https://www.dafont.com/kingdom-hearts.font">Kingdom Hearts h1 font.</a></li>
+<li><a href="https://www.mediafire.com/file/te9xmuztowt4mnz/KH_Fonts.zip/file">Kingdom Hearts h2 font.</a></li>
 </ul>
 
 
