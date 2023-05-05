@@ -47,9 +47,11 @@ label {
     font-family: khtext, sans-serif;
 }
 
+
 #introduction {
     text-align: center;
     font-family: khtext, sans-serif;
+    margin: 2%;
 }
 
 li a {
@@ -171,9 +173,15 @@ table {
 }
 
 #signup {
-    padding: 100px 0px 0 40%;
+    margin: 0 auto;
     max-width: 300px;
 
+
+
+}
+
+#signuphead {
+    margin: 100px -4px 20px 0px;
 }
 
 form label {
@@ -205,4 +213,32 @@ form label {
 
 .submit:hover {
     background-color: silver;
+}
+
+footer {
+    margin-top: 10%;
+    background-color: black;
+}
+
+#contactlist {
+    list-style-type: none;
+    margin: 0 auto;
+    display: table;
+}
+
+#contactlist li {
+    margin: 25px 0px 0px 50px;
+    float: left;
+    font-size: 150%;
+    padding-left: 100px;
+}
+
+footer p {
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+}
+
+@ {
+    
 }
