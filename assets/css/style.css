@@ -42,6 +42,11 @@ h2 p {
     font-size: 20px;
 }
 
+p,
+label {
+    font-family: khtext, sans-serif;
+}
+
 #introduction {
     text-align: center;
     font-family: khtext, sans-serif;
@@ -163,4 +168,41 @@ nav li {
 table {
     clear: both;
     margin: 0 auto;
+}
+
+#signup {
+    padding: 100px 0px 0 40%;
+    max-width: 300px;
+
+}
+
+form label {
+    margin-top: 10px;
+}
+
+.signtext {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.signtext:hover {
+    border-color: silver;
+}
+
+.submit {
+    margin-top: 25px;
+    border-radius: 3px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: gold;
+    color: black;
+    display: block;
+    font-family: 'khtext';
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: silver;
 }
