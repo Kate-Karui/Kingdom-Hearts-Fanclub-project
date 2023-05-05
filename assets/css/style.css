@@ -37,12 +37,12 @@ h2 {
     font-family: khtext, sans-serif;
 }
 
-h2 p {
+h2 b {
     font-weight: 100;
     font-size: 20px;
 }
 
-p,
+b,
 label {
     font-family: khtext, sans-serif;
 }
@@ -310,3 +310,4 @@ footer p {
         font-size: 80%;
 
     }
+}
