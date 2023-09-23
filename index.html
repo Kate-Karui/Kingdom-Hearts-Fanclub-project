@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kingdom Hearts Fanclub</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-    <meta name="description"
-        content="The Kingdom Hearts Fanclub is a place where everyone that's a big fan of Kingdom Hearts can gather and share their love for the game in a safespace">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="description" content="The Kingdom Hearts Fanclub is a place where everyone that's a big fan of Kingdom Hearts can gather and share their love for the game in a safespace">
 
 </head>
 
 <body class="bg">
-    <header>
+    <!--navigate to section of page using href-->
+    <header> 
         <nav>
             <ul id="menu">
                 <li id="contactli">
@@ -38,7 +38,8 @@
             </ul>
         </nav>
 
-        <table id="home">
+        <!--using font and id to styalize it, putting the title between crowns using the fonts * sign for asthetics-->
+        <table id="home"> 
             <tbody>
                 <tr>
                     <td id="crownl">*</td>
@@ -51,33 +52,23 @@
     </header>
 
     <h2 id="welcome">Welcome!</h2>
-    <div id="banner"></div>
-    <h2 id="introduction">Welcome to the Kingdom Hearts Fanclub! <br> Here you can share and express your love for
-        Kingdom
-        Hearts. Make
-        fanart, games and other forms of media. <br> You can also discuss Kingdom Hearts lore and other goodies with
-        others
-        in person or online!</h2>
-
+    <!--image to visually seperate from the header-->
+    <div id="banner"></div> 
+    <h2 id="introduction">Welcome to the Kingdom Hearts Fanclub! <br> Here you can share and express your love for Kingdom Hearts. 
+        Make fanart, games and other forms of media. 
+        <br> You can also discuss Kingdom Hearts lore and other goodies with others in person or online!</h2>
+    <!--question and answers, b invisible until checkbox been checked-->
     <div>
-        <h2>What is Kingdom Hearts? <input type="checkbox" id="question1" class="toggle"> <label for="question1"
-                class="key">/</label>
-            <b class="answer">Kingdom Hearts is a series of action role-playing games developed and published by
-                Square
-                Enix.<br> It is a collaboration
-                between Square Enix and Disney and is under the direction of Tetsuya Nomura, a longtime Square Enix
-                employee.</b>
+        <h2>What is Kingdom Hearts? <input type="checkbox" id="question1" class="toggle"> <label for="question1" class="key">/</label>
+            <b class="answer">Kingdom Hearts is a series of action role-playing games developed and published by Square Enix.
+                <br> It is a collaboration between Square Enix and Disney and is under the direction of Tetsuya Nomura, a longtime Square Enix employee.</b>
         </h2>
 
     </div>
     <div>
-        <h2>Why Kingdom Hearts? <input type="checkbox" id="question2" class="toggle"> <label for="question2"
-                class="key">/</label>
-            <b class="answer">Kingdom Hearts is a unique and captivating experience that combines the worlds of Disney
-                and Final Fantasy in a rich and
-                original story. <br> It is a game that appeals to fans of both franchises, as well as newcomers who
-                enjoy action-packed
-                gameplay, memorable characters, and stunning visuals.</b>
+        <h2>Why Kingdom Hearts? <input type="checkbox" id="question2" class="toggle"> <label for="question2" class="key">/</label>
+            <b class="answer">Kingdom Hearts is a unique and captivating experience that combines the worlds of Disney and Final Fantasy in a rich and original story. 
+                <br> It is a game that appeals to fans of both franchises, as well as newcomers who enjoy action-packed gameplay, memorable characters, and stunning visuals.</b>
         </h2>
 
     </div>
@@ -85,9 +76,7 @@
     <div>
         <h2>Why did I create the Kingdom Hearts Fanclub?
             <input type="checkbox" id="question3" class="toggle"> <label for="question3" class="key">/</label>
-            <b class="answer">I wanted a safe space where people with a highly concentrated common interest could gather
-                and share any form of media,<br> files and topics regarding one of my favorite game franchises ever
-                created.
+            <b class="answer">I wanted a safe space where people with a highly concentrated common interest could gather and share any form of media,<br> files and topics regarding one of my favorite game franchises ever created. 
                 <br> I also want people to meet in person, be able to make meetups and such.
             </b>
         </h2>
@@ -101,7 +90,7 @@
         </h2>
 
     </div>
-
+    <!--dummy form to formdump for validation testing-->
     <form method="post" action="https://formdump.codeinstitute.net/" id="signup">
         <h2 id="signuphead">Sign Up to the Kingdom Hearts Fanclub here</h2>
 
@@ -117,7 +106,7 @@
         <input id="submit" type="submit" value="Join The Community!" class="submit">
 
     </form>
-
+<!--footer for contact information using ul and a to link to medias-->
     <footer>
 
         <h2 id="contact">Contact</h2>
@@ -128,13 +117,12 @@
             <li>katekarui601@gmail.com</li>
         </ul>
         <br>
+        <!--copyright to not claim things as mine-->
         <h2>Copyright</h2>
         <p>©Disney ©Disney/Pixar.<br> Developed by SQUARE ENIX.<br> SQUARE ENIX and the SQUARE ENIX logo are registered
-            trademarks or trademarks of Square Enix Holdings Co., Ltd.<br> The ratings icon is a registered trademark of
-            the
+            trademarks or trademarks of Square Enix Holdings Co., Ltd.<br> The ratings icon is a registered trademark of the
             Entertainment Software Association.<br> The "PlayStation" , the "PS" Family logo and “PS4” are registered
-            trademarks and the PlayStation Network logo is a trademark of Sony Interactive Entertainment Inc.<br> All
-            other
+            trademarks and the PlayStation Network logo is a trademark of Sony Interactive Entertainment Inc.<br> All other
             trademarks are properties of their respective owners.
         </p>
 
