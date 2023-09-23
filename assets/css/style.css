@@ -1,4 +1,3 @@
-/*import font*/
 @font-face {
     font-family: khfont;
     src: url(../fonts/khfont.ttf);
@@ -17,14 +16,13 @@ html {
 }
 
 
-/*import banner image*/
 #banner {
     background: url(../images/khbanner.jpg) no-repeat center;
     height: 50%;
     background-size: cover;
     background-position: initial;
 }
-/*import background pattern*/
+
 .bg {
     background: url(../images/khpattern.jpg) center;
     background-blend-mode: multiply;
@@ -32,7 +30,7 @@ html {
     background-size: cover;
 }
 
-/*center and use imported font*/
+
 h2 {
     text-align: center;
     font-family: khtext, sans-serif;
@@ -60,7 +58,7 @@ li a {
     color: white;
     position: relative;
 }
-/*turn keys silver on hover*/
+
 li a:hover {
     color: silver;
     font-size: 105%;
@@ -70,7 +68,7 @@ li a:hover {
     margin: 0;
 }
 
-/*make checkboxes invisible and makes cursor to pointer on hover*/
+
 .toggle {
     opacity: 0%;
     transform: scale(5.0);
@@ -92,11 +90,11 @@ li a:hover {
     text-align: center;
     pointer-events: none;
 }
-/*if toggle is checked then answer is shown*/
+
 .toggle:checked+.key+.answer {
     display: block;
 }
-/*makes key silver on hover and increases the font size by 10*/
+
 .toggle:hover+.key {
     color: silver;
     font-size: 510%;
@@ -133,7 +131,7 @@ nav li {
 }
 
 
-/*color gradient for the title, used site template for the color gradient*/
+
 #title {
     text-align: center;
     clear: both;
@@ -147,7 +145,7 @@ nav li {
     text-emphasis-color: transparent;
     -webkit-text-fill-color: transparent;
 }
-/*crown right and left of title using the khfont crown*/
+
 #crownr {
     font-family: khfont, sans-serif;
     font-size: 700%;
@@ -198,7 +196,7 @@ form label {
 .signtext:hover {
     border-color: silver;
 }
-/*coloring and styling of the submit button*/
+
 .submit {
     margin-top: 25px;
     border-radius: 3px;
@@ -211,7 +209,7 @@ form label {
     font-family: 'khtext';
     cursor: pointer;
 }
-/*turns submit button silver on hover*/
+
 .submit:hover {
     background-color: silver;
 }
@@ -245,7 +243,7 @@ footer p {
     text-align: center;
     color: white;
 }
-/*disables the key click function on mobile devices, thought it would be difficult to press and was less intuitive*/
+
 @media screen and (max-width: 780px) {
     .key {
         display: none;
