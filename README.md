@@ -7,7 +7,7 @@ The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game seri
 <li>Connect and socialize with other fans online or in person through chat rooms, forums and meetups.</li>
 </ul>
 
-![image](./assets/images/Screenshot%202023-05-05%20220147.png)
+![image](./assets/images/displayformat.png)
 <br>
 
 <h1>Features</h1>
@@ -22,7 +22,7 @@ The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game seri
 <li>The header has a pretty image summarizing Kingdom Hearts compiled by someone on Deviantart.</li>
 <li>The h1 uses the Kingdom Hearts font with CSS coloring it.</li>
 
-![image](./assets/images/Screenshot%202023-05-05%20223520.png)
+![image](./assets/images/navhead.png)
 </ul>
 <b><h2>Introduction & FAQ</h2></b>
 <ul>
@@ -32,8 +32,8 @@ The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game seri
 <li>The last question contains an Iframe leading to a site that contains music.</li>
 </ul>
 
-![image](./assets/images/Screenshot%202023-05-05%20223531.png)
-![image](./assets/images/Screenshot%202023-05-05%20223543.png)
+![image](./assets/images/faqclose.png)
+![image](./assets/images/faqopen.png)
 <h2><b>Sign Up Forum</b></h2>
 <ul>
 <li>A sign up forum that sends data to Code Institute's formdump.</li>
@@ -41,14 +41,14 @@ The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game seri
 <li>It enables people to signup to Kingdom Hearts Fanclub to give access to its content.</li>
 </ul>
 
-![image](./assets/images/Screenshot%202023-05-05%20223556.png)
+![image](./assets/images/signup.png)
 
 <h2><b>Contact & Copyright Information.</b></h2>
 <ul>
 <li>Contact information on where to find me.</li>
 <li>Copyright information brought from the Kingdom Hearts website stating that I don't own the characters or the franchise.</li>
 
-![image](./assets/images/Screenshot%202023-05-05%20223603.png)
+![image](./assets/images/copyright.png)
 </ul>
 
 <h1><b>Testing</b></h1>
@@ -68,18 +68,18 @@ The Kingdom Hearts Fanclub is a website for fans of the Kingdom Hearts game seri
 <ul>
 <li><b>HTML</b></li>
 
-![image](./assets/images/Screenshot%202023-05-05%20222523.png)
+![image](./assets/images/htmlvalidation.png)
 
 <li><b>CSS</b></li>
 
-![image](./assets/images/Screenshot%202023-05-05%20222557.png)
+![image](./assets/images/cssvalidation.png)
 
 <li><b>Accessibility</b></li>
 <ul>
 <li>I have confirmed that the scores are high with Lighthouse.</li>
 </ul>
 
-![image](./assets/images/Screenshot%202023-05-05%20215832.png)
+![image](./assets/images/lighthouse.png)
 
 </ul>
 

@@ -1,11 +1,11 @@
 @font-face {
     font-family: khfont;
-    src: url(../fonts/Kingdom_Hearts_Font.ttf);
+    src: url(../fonts/khfont.ttf);
 }
 
 @font-face {
     font-family: khtext;
-    src: url(../fonts/KH_Text.ttf);
+    src: url(../fonts/khtext.ttf);
 }
 
 body,
